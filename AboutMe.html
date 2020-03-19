@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>POWN SITE</title>
+
+<link rel="icon" href="pawn.jpg">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="http://www.w3schools.com/lib/w3.css" rel="stylesheet"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<style>
+html {
+  height: 100%;
+}
+body {
+	background-position:center;
+	background-attachment: fixed;
+
+    background-image: url("Bg.jpeg");
+	background-size: cover;
+	background-repeat:no-repeat;
+
+}
+.navbar {
+    overflow: hidden;
+    font-family: CenturyGothic, Helvetica, sans-serif;
+	background:black;
+    background:rgba(0,0,0,0.8);
+}
+
+.navbar a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 20px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+h1{
+	color: white;
+	border: 1px dashed black;
+	border-style: double;'
+	border-color: white;
+	background:black;
+    background:rgba(0,0,0,0.8);
+}
+h3{
+    color: white;
+	border: 1px dashed black;
+	border-style: double;'
+	border-color: white;
+	background: white;
+    background:rgba(0,0,0,0.5);
+}
+.footer {
+  position: bottom;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-image:#ffffff;
+  opacity:.5;
+  color:white;
+  text-align: center;
+}
+.audio{
+visibility:false;
+}
+
+</style>
+</head>
+<body>
+<h1><center>WELCOME TO MY POWN SITE</center></h1>
+<div class="navbar">
+	<a href ="#yay">About Me</a>
+	<a href="https://drive.google.com/file/d/1ILH4Qqzm1C1U_AC6sbC0mTUtyIElxf-F/view?usp=sharing">Resume</a>
+  <div class="dropdown">
+    <button class="dropbtn">Family 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///Z:/Osmena,%20Raymond/mother.html">Mother<a href="https://facebook.com/denisepauline.osmena/" style-color"white"><img src="bio.png" height="30"width="30"></a></a>
+      <a href="file:///Z:/Osmena,%20Raymond/brother.html">Brother<a href="https://facebook.com/sage.martin.3954/" style-color"white"><img src="bio.png" height="30"width="30"></a></a>
+    </div>
+  </div>
+<div class="dropdown">
+    <button class="dropbtn">Projects 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>   
+</div>
+
+
+<center>
+<h1><i>My Family</i></h1>
+<div class="w3-content w3-display-container slider" id="div1">
+  <img class="mySlides" src="fam.jpg" width= "600"height="400">
+  <img class="mySlides" src="fam1.jpg" width= "600"height="400">
+  <img class="mySlides" src="fam2.jpg" width= "600"height="400">
+  <img class="mySlides" src="fam3.jpg" width= "600"height="400">
+  <img class="mySlides" src="fam4.jpg" width= "600"height="400">
+  <img class="mySlides" src="fam4.jpg" width= "600"height="400">
+  <img class="mySlides" src="fam5.jpg" width= "600"height="400">
+  <img class="mySlides" src="fam6.jpg" width= "600"height="400">
+  <img class="mySlides" src="fam7.jpg" width= "600"height="400">
+  <a class="w3-btn-floating w3-display-left" onclick="plusDivs(this,-1)">&#10094;</a>
+  <a class="w3-btn-floating w3-display-right" onclick="plusDivs(this,1)">&#10095;</a>
+</div>
+
+<h1><i>Hobbies</i></h1>
+<div class="w3-content w3-display-container slider" id="div2">
+  <img class="mySlides" src="anime.png" width= "600"height="400">
+  <img class="mySlides" src="f.png" width= "600"height="400">
+  <img class="mySlides" src="fa.jpg" width= "600"height="400">
+  <img class="mySlides" src="fat.jpg" width= "600"height="400">
+  <img class="mySlides" src="fate.jpg" width= "600"height="400">
+  <img class="mySlides" src="kppo.png" width= "600"height="400">
+  <img class="mySlides" src="bp.jpg" width= "600"height="400">
+  <img class="mySlides" src="snsd.jpg" width= "600"height="400">
+  <img class="mySlides" src="tw.jpg" width= "600"height="400">
+  <img class="mySlides" src="rv.jpg" width= "600"height="400">
+  <img class="mySlides" src="fx.png" width= "600"height="400">
+  <a class="w3-btn-floating w3-display-left" onclick="plusDivs(this, -1)">&#10094;</a>
+  <a class="w3-btn-floating w3-display-right" onclick="plusDivs(this, 1)">&#10095;</a>
+</div>
+
+
+<h1 id = "yay"><i>About Me</i></h1>
+<img src ="bio.png" alt="yey"  height="100"width="100" >
+<h3><b>Raymond Osmena</b></h3>
+<h3><b>Belives in the quote "Nothing in this world's worth running for."</b></h3>
+<h3><b>Age:19</b></h3>
+<h3><b>Gender:Male</b></h3>
+<h3><b>Status:Civil</b></h3>
+<h3><b>Likes nice long walks along the beach, Anime and Kpop.</b></h3>
+<h3><b>Dislikes "School Days the Animation",PLDT, Early morning classes, Weed, Adolf Hitler,</b></h3>
+<h3><b>Communism*Democracy is not and option*,long days, My horrible eyes sight</b></h3>
+
+</center>
+
+
+
+<audio src="wisp.mp3" autoplay="autoplay" loop="loop"></audio>
+<script>
+var sliderObjects = [];
+createSliderObjects();
+
+function plusDivs(obj, n) {
+  var parentDiv = $(obj).parent();
+  var matchedDiv;
+  $.each(sliderObjects, function(i, item) {
+    if ($(parentDiv[0]).attr('id') == $(item).attr('id')) {
+      matchedDiv = item;
+      return false;
+    }
+  });
+  matchedDiv.slideIndex=matchedDiv.slideIndex+n;
+  showDivs(matchedDiv, matchedDiv.slideIndex);
+}
+
+function createSliderObjects() {
+  var sliderDivs = $('.slider');
+  $.each(sliderDivs, function(i, item) {
+    var obj = {};
+    obj.id = $(item).attr('id');
+    obj.divContent = item;
+    obj.slideIndex = 1;
+    obj.slideContents = $(item).find('.mySlides');
+    showDivs(obj, 1);
+    sliderObjects.push(obj);
+  });
+}
+function showDivs(divObject, n) {
+  debugger;
+  var i;
+  if (n > divObject.slideContents.length) {
+    divObject.slideIndex = 1
+  }
+  if (n < 1) {
+    divObject.slideIndex = divObject.slideContents.length
+  }
+  for (i = 0; i < divObject.slideContents.length; i++) {
+    divObject.slideContents[i].style.display = "none";
+  }
+  divObject.slideContents[divObject.slideIndex - 1].style.display = "block";
+}
+
+</script>
+<div class="footer"><a href="https://facebook.com/XXretzkinoshitaXX/" style-color"white"><img src="fb.png" height="40"width="40">
+<a href="https://twitter.com/KinoshitaRed" style-color"white"><img src="twit.png" height="40"width="40">
+<a href="//www.instagram.com/red_osmenyya/" style-color"white"><img src="pint.png" height="40"width="40">
+<a href="https://www.pinterest.ph/retzyukino/" style-color"white"><img src="pintt.png" height="40"width="40">
+<a href="https://www.tumblr.com/blog/retzyuki" style-color"white"><img src="tumb.png" height="40"width="40">
+</a></div>
+</body>
+</body>
+</html>
